@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Portfolio of Ismail Nulhakim, Backend Engineer specializing in microservices, APIs, CI/CD, and enterprise systems." />
+
+    <title>Ismail Nulhakim | Backend Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <!-- Logo -->
+        <a href="#" class="brand-logo"> IN </a>
+
+        <!-- Mobile Toggle -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation" />
+
+        <!-- Hamburger -->
+        <label for="menu-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation -->
+        <ul class="nav-list">
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero-section" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="hero-label">Backend Engineer</p>
+
+          <h1 id="hero-title">Ismail Nulhakim</h1>
+
+          <p class="hero-description">Building resilient APIs, microservices, and production systems for enterprise-scale applications.</p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary"> View Work </a>
+
+            <a href="#contact" class="btn-secondary"> Contact Me </a>
+          </div>
+        </div>
+
+        <!-- Architecture Signature -->
+        <article class="architecture-signature" aria-label="System architecture overview">
+          <p>Client</p>
+          <span>→</span>
+
+          <p>KrakenD API Gateway</p>
+          <span>→</span>
+
+          <p>Microservices</p>
+          <span>→</span>
+
+          <p>PostgreSQL / Redis / RabbitMQ</p>
+        </article>
+      </section>
+
+      <!-- About -->
+      <section id="about" aria-labelledby="about-title">
+        <h2 id="about-title">About</h2>
+
+        <p>Backend Engineer with production experience building healthcare, government, and enterprise systems. Specialized in Golang, microservices architecture, API integrations, GraphQL, CI/CD, and cloud-based deployment pipelines.</p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" aria-labelledby="skills-title">
+        <h2 id="skills-title">Core Competencies</h2>
+
+        <div class="skills-grid">
+          <article>
+            <h3>Backend</h3>
+
+            <ul>
+              <li>Golang</li>
+              <li>NestJS</li>
+              <li>REST API</li>
+              <li>GraphQL</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Data Systems</h3>
+
+            <ul>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>Redis</li>
+              <li>RabbitMQ</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Infrastructure</h3>
+
+            <ul>
+              <li>Docker</li>
+              <li>KrakenD</li>
+              <li>Jenkins</li>
+              <li>CI/CD</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Engineering</h3>
+
+            <ul>
+              <li>Microservices</li>
+              <li>System Design</li>
+              <li>Code Review</li>
+              <li>Scalability</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Selected Projects</h2>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>LoveCare & CariCare Healthcare Ecosystem</h3>
+
+            <p>Built and maintained healthcare backend services for LoveCare and CariCare, supporting production APIs, payment workflows, GraphQL services, and scalable microservice communication.</p>
+
+            <p class="tech-stack">Go • NestJS • TypeScript • MongoDB • GraphQL • Midtrans • Qontak API</p>
+          </article>
+
+          <article class="project-card">
+            <h3>SAPA129 — National Service Platform</h3>
+
+            <p>Developed secure backend microservices for SAPA129 under KemenPPPA, implementing API Gateway, CI/CD pipelines, and private cloud deployments.</p>
+
+            <p class="tech-stack">Go (Echo) • KrakenD • PostgreSQL • Redis • RabbitMQ • Jenkins • Docker</p>
+          </article>
+
+          <article class="project-card">
+            <h3>LoveCare Internal Operations Dashboard</h3>
+
+            <p>Designed backend services powering internal healthcare operational dashboards, supporting real-time monitoring, data synchronization, and service observability.</p>
+
+            <p class="tech-stack">Go • MongoDB • Redis • GraphQL • REST API</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
+
+        <article class="timeline-item">
+          <h3>Backend Engineer</h3>
+
+          <p class="company-meta">Enterprise Systems • Production Environment</p>
+
+          <ul>
+            <li>Built scalable microservices for enterprise applications.</li>
+            <li>Optimized API performance and service communication.</li>
+            <li>Supported CI/CD and deployment automation.</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Let's Build Reliable Systems</h2>
+
+        <p>Open to backend engineering, platform engineering, and enterprise technology opportunities.</p>
+
+        <ul class="contact-list">
+          <li>
+            Email:
+            <a href="mailto:ismailnulhakim@gmail.com"> ismailnulhakim@gmail.com </a>
+          </li>
+          <li>
+            WhatsApp:
+            <a href="https://wa.me/6281382118825"> 081382118825 </a>
+          </li>
+
+          <li>
+            GitHub:
+            <a href="https://github.com/ismailnlhkm" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"> github.com/ismailnlhkm </a>
+          </li>
+
+          <li>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/ismail-nulhakim/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"> linkedin.com/in/ismail-nulhakim </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2026 Ismail Nulhakim. Engineered with precision.</p>
+    </footer>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const navLinks = document.querySelectorAll(".nav-list a");
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          menuToggle.checked = false;
+        });
+      });
+    </script>
+  </body>
+</html>
